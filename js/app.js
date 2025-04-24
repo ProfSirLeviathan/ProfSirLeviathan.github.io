@@ -14,9 +14,9 @@ class SpaceTerminal extends Terminal {
     setupUI(this);
     setupEvents(this);
     this.focusInput(3000);
-    window.terminal = this; // Expose for DOM access
+    window.terminal = this; 
   }
 }
 
-// Initialize application
+
 new SpaceTerminal();
